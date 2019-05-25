@@ -1,0 +1,1919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32055a06-cdf5-4120-b250-77ed9a41f9dc" name="Default Changelist" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ITCalculator/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ITCalculator/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ITCalculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ITCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ITCalculator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ITCalculator/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ITCalculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Models/ListResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Models/Person.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Models/TaxResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Repository/IPersonRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Service/IPersonService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Service/ITaxService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Service/PersonService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Service/TaxService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Utils/ValidatorUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator.Application.Test/Controller/PersonControllerTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator.Application.Test/ITCalculator.Application.Test.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator.Application.Test/Service/PersonMockService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator.Domain.Test/ITCalculator.Domain.Test.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator.Domain.Test/Repository/PersonMockRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator.Domain.Test/Service/PersonServiceTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator.Domain.Test/Service/TaxServiceTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator.Domain.Test/Utils/ValidatorUtilsTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator/Controllers/PersonController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator/Controllers/TaxController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator/Dto/ListPersonTaxDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator/ITCalculator.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculator/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculatorTests/ITCalculatorTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculatorTests/Tests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITCalculatorTests/packages.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/Config/DbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/Entities/PersonEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/Migrations/20190522205832_CreatePeopleTable.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/Migrations/20190522205832_CreatePeopleTable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/Migrations/ITContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/Repository.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/Repository/PersonRepository.cs" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ITCalculator/Controllers/PersonController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+              <folding>
+                <marker date="1558752150940" expanded="false" signature="6:117" ph="..." />
+                <marker date="1558752150940" expanded="true" signature="153:3481" ph="{...}" />
+                <marker date="1558752150940" expanded="true" signature="221:3479" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="346:410" ph="{...}" />
+                <marker date="1558752150940" expanded="true" signature="499:769" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="525:637" ph="{...}" />
+                <marker date="1558752150940" expanded="true" signature="669:759" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="867:1178" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="893:1046" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="1078:1168" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="1265:2112" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="1331:1440" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="1484:1595" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="1632:1742" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="1795:1920" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="1970:2102" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="2204:2491" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="2230:2359" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="2391:2481" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="2595:2913" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="2621:2781" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="2813:2903" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="2999:3473" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="3025:3132" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="3164:3463" ph="{...}" />
+                <marker date="1558752150940" expanded="false" signature="3286:3386" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Domain/Repository/IPersonRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <marker date="1558644620215" expanded="false" signature="6:94" ph="..." />
+                <marker date="1558644620215" expanded="true" signature="123:467" ph="{...}" />
+                <marker date="1558644620215" expanded="true" signature="164:465" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Domain/Service/TaxService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <marker date="1558657266210" expanded="true" signature="6:112" ph="..." />
+                <marker date="1558657266210" expanded="true" signature="138:2558" ph="{...}" />
+                <marker date="1558657266210" expanded="true" signature="182:2556" ph="{...}" />
+                <marker date="1558657266210" expanded="true" signature="301:359" ph="{...}" />
+                <marker date="1558657266210" expanded="true" signature="434:1052" ph="{...}" />
+                <marker date="1558657266210" expanded="true" signature="764:929" ph="{...}" />
+                <marker date="1558657266210" expanded="true" signature="1140:1630" ph="{...}" />
+                <marker date="1558657266210" expanded="true" signature="1202:1327" ph="{...}" />
+                <marker date="1558657266210" expanded="true" signature="1377:1509" ph="{...}" />
+                <marker date="1558657266210" expanded="true" signature="1715:1960" ph="{...}" />
+                <marker date="1558657266210" expanded="true" signature="2033:2550" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ITCalculator/Controllers/TaxController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+              <folding>
+                <marker date="1558748124951" expanded="true" signature="6:120" ph="..." />
+                <marker date="1558748124951" expanded="true" signature="156:826" ph="{...}" />
+                <marker date="1558748124951" expanded="true" signature="221:824" ph="{...}" />
+                <marker date="1558748124951" expanded="true" signature="334:395" ph="{...}" />
+                <marker date="1558748124951" expanded="true" signature="491:818" ph="{...}" />
+                <marker date="1558748124951" expanded="true" signature="517:686" ph="{...}" />
+                <marker date="1558748124951" expanded="true" signature="718:808" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Domain/Service/ITaxService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1558644474534" expanded="true" signature="6:80" ph="..." />
+                <marker date="1558644474534" expanded="true" signature="106:223" ph="{...}" />
+                <marker date="1558644474534" expanded="true" signature="141:221" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/63/b9d1311a/ExceptionDispatchInfo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="632">
+              <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ITCalculator/Dto/ListPersonTaxDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding>
+                <marker date="1558748655451" expanded="true" signature="26:124" ph="{...}" />
+                <marker date="1558748655451" expanded="true" signature="62:122" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Repository/Repository/PersonRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+              <folding>
+                <marker date="1558752737961" expanded="true" signature="6:164" ph="..." />
+                <marker date="1558752737961" expanded="true" signature="197:6553" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="253:6551" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="309:1827" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="378:1817" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="460:662" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="719:856" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="910:1054" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="1124:1378" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="1512:1802" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="1878:3654" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="1947:3644" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="2062:2264" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="2310:2431" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="2488:2625" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="2679:2823" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="2894:3202" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="3339:3629" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="3702:4175" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="3771:4165" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="3876:4066" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="4226:4749" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="4295:4739" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="4400:4714" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="4832:5770" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="4901:5760" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="5212:5526" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="5615:5745" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="5817:6545" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="5886:6535" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="5992:6148" ph="{...}" />
+                <marker date="1558752737961" expanded="true" signature="6200:6520" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Repository/Config/DbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding>
+                <marker date="1558810103671" expanded="false" signature="6:63" ph="..." />
+                <marker date="1558810103671" expanded="true" signature="92:621" ph="{...}" />
+                <marker date="1558810103671" expanded="true" signature="163:619" ph="{...}" />
+                <marker date="1558810103671" expanded="true" signature="312:517" ph="{...}" />
+                <marker date="1558810103671" expanded="true" signature="368:507" ph="{...}" />
+                <marker date="1558810103671" expanded="true" signature="593:613" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>float</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>double</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Repository/Migrations/20190522205832_CreatePeopleTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculator.Domain.Test/Service/TaxServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculator.Domain.Test/obj/Debug/netcoreapp2.0/ITCalculator.Domain.Test.Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculator.Domain.Test/Service/PersonServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87E8CE02-3EE4-404D-9082-6C8A5038171A/46/89f79914/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculator.Domain.Test/Utils/ValidatorUtilsTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculatorTests/Tests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2D506C52-CF4B-4BDB-B896-80B6E2C92982/bf/7d40ab30/DbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Utils/ValidatorUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Service/PersonService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A5E22F3C-E152-41DF-90CF-F6E2D79A297C/db/ed223090/Utilities.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Service/IPersonService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/103A49C4-E044-470F-BF55-73547C850A02/66/a441fca3/Assert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculator.Application.Test/Service/PersonMockService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/63/b9d1311a/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculator/Controllers/PersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculator.Application.Test/Controller/PersonControllerTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repository/Repository/PersonRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repository/Entities/PersonEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Repository/IPersonRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Models/Person.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculator/Controllers/TaxController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculator/Dto/ListPersonTaxDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Service/ITaxService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Models/TaxResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Service/TaxService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/f0/3e259847/NoContentResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Models/ListResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculator/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculator.Domain.Test/Repository/PersonMockRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ITCalculator/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repository/Config/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repository/Migrations/ITContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repository/Migrations/20190522205832_CreatePeopleTable.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ITCalculator/Config/ITContext.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator/Entities/PersonEntity.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator/ITCalculator.csproj" />
+        <option value="$PROJECT_DIR$/ITCalculator/Migrations/20190522205832_CreatePeopleTable.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator/Program.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" />
+        <option value="restClient/response8.txt" />
+        <option value="$PROJECT_DIR$/ITCalculator/Utils/ValidatorUtils.cs" />
+        <option value="$PROJECT_DIR$/ITCalculatorTests/Tests.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Test/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Test/ValidatorUtilsTest.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Test/Utils/ValidatorUtilsTest.cs" />
+        <option value="$PROJECT_DIR$/Domain/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Domain/Class1.cs" />
+        <option value="$PROJECT_DIR$/Repository/Class1.cs" />
+        <option value="$PROJECT_DIR$/Domain/Repository/IProdutoRepository.cs" />
+        <option value="$PROJECT_DIR$/Repository/Entities/PersonEntity.cs" />
+        <option value="$PROJECT_DIR$/Repository/Config/ITContext.cs" />
+        <option value="$PROJECT_DIR$/Repository/Migrations/20190522205832_CreatePeopleTable.cs" />
+        <option value="$PROJECT_DIR$/Repository/Migrations/ITContextModelSnapshot.cs" />
+        <option value="$PROJECT_DIR$/Repository/Migrations/20190522205832_CreatePeopleTable.Designer.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator/DTO/ListPersonItDto.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator/Dto/ListPersonItDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Repository/IPersonRepository.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator/Dto/ListenPersonTaxDto.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" />
+        <option value="$PROJECT_DIR$/Domain/Models/TaxResponse.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Domain.Test/Repository/PersonRepository.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Domain.Test/Service/TaxControllerTest.cs" />
+        <option value="$PROJECT_DIR$/Domain/Service/ITaxService.cs" />
+        <option value="$PROJECT_DIR$/Domain/Service/IPersonService.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Domain.Test/Service/TaxServiceTest.cs" />
+        <option value="$PROJECT_DIR$/Domain/Service/PersonService.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Domain.Test/Service/PersonServiceTest.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/ListResponse.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Application.Test/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Application.Test/Controller/PersonController.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Domain.Test/Repository/PersonMockRepository.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Application.Test/Service/PersonService.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Application.Test/Service/PersonServiceTest.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/Person.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Application.Test/Service/PersonMockService.cs" />
+        <option value="$PROJECT_DIR$/Domain/Service/TaxService.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator.Application.Test/Controller/PersonControllerTest.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator/Startup.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator/Controllers/TaxController.cs" />
+        <option value="$PROJECT_DIR$/ITCalculator/Dto/ListPersonTaxDto.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" />
+        <option value="$PROJECT_DIR$/ITCalculator/Controllers/PersonController.cs" />
+        <option value="$PROJECT_DIR$/Repository/Repository/PersonRepository.cs" />
+        <option value="$PROJECT_DIR$/Repository/Config/DbContext.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1274" />
+    <option name="height" value="1600" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <autoscrollFromSource SolutionExplorer="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ITCalculator" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ITCalculator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Application" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ITCalculator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ITCalculator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Infra" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ITCalculator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Infra" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repository" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ITCalculator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Infra" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repository" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Config" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ITCalculator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ITCalculator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Test" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ITCalculator.Domain.Test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="5427d58d:AssemblyExplorerRootNode" />
+              <item name="nunit.framework (3.5.0.0, msil, .Net Framework v4.5)" type="5e97225f:AssemblyExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/tax" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;MinimumWage&quot;: 600&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/tax" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;MinimumWage&quot;: 600,&#10;  &quot;Page&quot;: 0,&#10;  &quot;Amount&quot;: 10&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/person/newPerson" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;personName&quot;: &quot;Victor Homem Heck&quot;,&#10;    &quot;dependentsAmount&quot;: 10,&#10;    &quot;monthlyGrossRevenue&quot;: 4374.57&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/tax" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;MinimumWage&quot;: 500,&#10;  &quot;Page&quot;: 0,&#10;  &quot;Amount&quot;: 10&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/tax" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;MinimumWage&quot;: 800,&#10;  &quot;Page&quot;: 0,&#10;  &quot;Amount&quot;: 10&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/tax" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;MinimumWage&quot;: 1000,&#10;  &quot;Page&quot;: 0,&#10;  &quot;Amount&quot;: 10&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/tax" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;MinimumWage&quot;: 100.0,&#10;  &quot;Page&quot;: 0,&#10;  &quot;Amount&quot;: 10&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000/api/person/list" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="page" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="amount" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/tax" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;MinimumWage&quot;: 1000.0,&#10;  &quot;Page&quot;: 0,&#10;  &quot;Amount&quot;: 10&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/tax" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;MinimumWage&quot;: 4000.0,&#10;  &quot;Page&quot;: 0,&#10;  &quot;Amount&quot;: 10&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/tax" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;MinimumWage&quot;: 11000.0,&#10;  &quot;Page&quot;: 0,&#10;  &quot;Amount&quot;: 10&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/tax" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;MinimumWage&quot;: 5000.0,&#10;  &quot;Page&quot;: 0,&#10;  &quot;Amount&quot;: 10&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000/api/person/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000/api/person" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000/api/person" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept " />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/api/person" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;CPF&quot;: &quot;058.826.359-18&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000/api/person/list" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept " />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="page" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="amount" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000/api/person/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept " />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000/api/persona/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept " />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000/api/person" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept " />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="page" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="amount" />
+                <option name="value" value="100" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/person/newPerson" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;cpf&quot;: &quot;058.826.359-17&quot;,&#10;    &quot;personName&quot;: &quot;Victor Homem Heck&quot;,&#10;    &quot;dependentsAmount&quot;: 10,&#10;    &quot;monthlyGrossRevenue&quot;: 4374.57&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/person/newPerson" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;cpf&quot;: &quot;058.826.359-18&quot;,&#10;    &quot;personName&quot;: &quot;Victor Homem Heck&quot;,&#10;    &quot;dependentsAmount&quot;: 10,&#10;    &quot;monthlyGrossRevenue&quot;: 4374.57&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/person" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;cpf&quot;: &quot;058.826.359-18&quot;,&#10;    &quot;personName&quot;: &quot;Victor Homem Heck&quot;,&#10;    &quot;dependentsAmount&quot;: 10,&#10;    &quot;monthlyGrossRevenue&quot;: 4374.57&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/person" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;cpf&quot;: &quot;058.826.359-18&quot;,&#10;    &quot;personName&quot;: &quot;Victor Homem Heck&quot;,&#10;    &quot;dependentAmount&quot;: 10,&#10;    &quot;monthlyGrossAmount&quot;: 4374.57&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/person" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;cpf&quot;: &quot;058.826.359-18&quot;,&#10;    &quot;person_name&quot;: &quot;Victor Homem Heck&quot;,&#10;    &quot;dependent_amount&quot;: 10,&#10;    &quot;monthly_gross_amount&quot;: 4374.57&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000/api/person" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;cpf&quot;: &quot;058.826.359-18&quot;,&#10;    &quot;person_name&quot;: &quot;Victor Homem Heck&quot;,&#10;    &quot;dependent_amount&quot;: 10,&#10;    &quot;monthly_gross_amount&quot;: 4374.57&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/api/person" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ITCalculator/bin/Debug/netcoreapp2.0/ITCalculator.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ITCalculator" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ITCalculator/ITCalculator.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rest-api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_1#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_1#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" index="2">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_1#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" index="3">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_2#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest-api_1#3" />
+        <item itemvalue="HTTP Request.rest-api_1#1" />
+        <item itemvalue="HTTP Request.rest-api_1#2" />
+        <item itemvalue="HTTP Request.rest-api_2#1" />
+        <item itemvalue="HTTP Request.rest-api#1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32055a06-cdf5-4120-b250-77ed9a41f9dc" name="Default Changelist" comment="" />
+      <changelist id="" name="Auera" comment="" />
+      <created>1558548100479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558548100479</updated>
+      <workItem from="1558548105053" duration="2117000" />
+      <workItem from="1558551259710" duration="3515000" />
+      <workItem from="1558556314387" duration="23558000" />
+      <workItem from="1558635416108" duration="509000" />
+      <workItem from="1558636026240" duration="336000" />
+      <workItem from="1558636415995" duration="16777000" />
+      <workItem from="1558722120745" duration="135000" />
+      <workItem from="1558722338909" duration="722000" />
+      <workItem from="1558728158816" duration="3965000" />
+      <workItem from="1558748761979" duration="2924000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="54558000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="2560" height="1600" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26965845" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32846716" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39946914" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3297943" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.3297943" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.3297943" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.3297943" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.3297943" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.3297943" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.32846716" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32962668" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" visible="true" weight="0.32962668" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="587" />
+    <coverage-tree-state>
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
+      <select />
+    </coverage-tree-state>
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Domain/Service/TaxService.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/Domain/Service/TaxService.cs" initialLine="19">
+            <startOffsets>
+              <option value="457" />
+            </startOffsets>
+            <endOffsets>
+              <option value="497" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Repository/Repository/PersonRepository.cs</url>
+          <line>138</line>
+          <properties documentPath="$PROJECT_DIR$/Repository/Repository/PersonRepository.cs" initialLine="138">
+            <startOffsets>
+              <option value="4967" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5027" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>(double)count/amount</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(double)count</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>count</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(double)(count/amount)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>count/amount</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_personService</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Deci</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>liquidRevenue * taxPercentage</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ITCalculator/Dto/PersonDto.cs" />
+    <entry file="file://$PROJECT_DIR$/ITCalculator/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator/ITCalculator.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87E8CE02-3EE4-404D-9082-6C8A5038171A/46/89f79914/IActionResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/2019-05-22T062837.200.json" />
+    <entry file="file://$PROJECT_DIR$/Domain/Utils/ValidatorUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <marker date="1558563786771" expanded="true" signature="28:1293" ph="{...}" />
+            <marker date="1558563786771" expanded="true" signature="69:1291" ph="{...}" />
+            <marker date="1558563786771" expanded="true" signature="120:1285" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculatorTests/Tests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558573941657" expanded="true" signature="52:224" ph="{...}" />
+            <marker date="1558573941657" expanded="true" signature="95:222" ph="{...}" />
+            <marker date="1558573941657" expanded="true" signature="144:216" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/f0/3e259847/NoContentResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/UnitTest1.cs" />
+    <entry file="file://$PROJECT_DIR$/Domain/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Repository/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Repository/Migrations/20190522205832_CreatePeopleTable.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <marker date="1558620835108" expanded="true" signature="29:231" ph="..." />
+            <marker date="1558620835108" expanded="true" signature="264:1517" ph="{...}" />
+            <marker date="1558620835108" expanded="true" signature="389:1515" ph="{...}" />
+            <marker date="1558620835108" expanded="true" signature="471:1509" ph="{...}" />
+            <marker date="1558620835108" expanded="true" signature="770:1464" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/Migrations/20190522205832_CreatePeopleTable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <marker date="1558618683373" expanded="true" signature="6:93" ph="..." />
+            <marker date="1558618683373" expanded="true" signature="126:1157" ph="{...}" />
+            <marker date="1558618683373" expanded="true" signature="183:1155" ph="{...}" />
+            <marker date="1558618683373" expanded="true" signature="259:983" ph="{...}" />
+            <marker date="1558618683373" expanded="true" signature="398:886" ph="{...}" />
+            <marker date="1558618683373" expanded="true" signature="1056:1149" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2D506C52-CF4B-4BDB-B896-80B6E2C92982/bf/7d40ab30/DbSet`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator/Controllers/ValuesController.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A5E22F3C-E152-41DF-90CF-F6E2D79A297C/db/ed223090/Utilities.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator.Domain.Test/Utils/ValidatorUtilsTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <marker date="1558575936899" expanded="false" signature="6:38" ph="..." />
+            <marker date="1558575936899" expanded="true" signature="73:746" ph="{...}" />
+            <marker date="1558575936899" expanded="true" signature="111:744" ph="{...}" />
+            <marker date="1558575936899" expanded="true" signature="348:422" ph="{...}" />
+            <marker date="1558575936899" expanded="true" signature="663:738" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator.Domain.Test/Service/TaxServiceTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1074">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1558648677710" expanded="true" signature="6:144" ph="..." />
+            <marker date="1558648677710" expanded="true" signature="181:5047" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="215:5045" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="421:519" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="703:805" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="990:1091" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="1273:1375" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="1569:1671" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="1762:2031" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="1821:1917" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="2109:2354" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="2168:2264" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="2433:2678" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="2492:2589" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="2951:3053" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="3196:3300" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="3442:3546" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="3688:3792" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="3934:4038" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="4113:5039" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="4327:4641" ph="{...}" />
+            <marker date="1558648677710" expanded="true" signature="4746:5029" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator.Domain.Test/Service/PersonServiceTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <marker date="1558651636017" expanded="true" signature="6:105" ph="..." />
+            <marker date="1558651636017" expanded="true" signature="142:2548" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="179:2546" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="366:586" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="432:478" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="657:1024" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="721:898" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="1092:1312" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="1158:1204" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="1383:1750" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="1447:1624" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="1820:1884" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="1957:2084" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="2152:2262" ph="{...}" />
+            <marker date="1558651636017" expanded="true" signature="2282:2540" ph="/* Person InsertPerson(Person person); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <marker date="1558559741320" expanded="true" signature="6:255" ph="..." />
+            <marker date="1558559741320" expanded="true" signature="279:776" ph="{...}" />
+            <marker date="1558559741320" expanded="true" signature="306:774" ph="{...}" />
+            <marker date="1558559741320" expanded="true" signature="359:417" ph="{...}" />
+            <marker date="1558559741320" expanded="true" signature="640:741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator.Domain.Test/obj/Debug/netcoreapp2.0/ITCalculator.Domain.Test.Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator.Application.Test/UnitTest1.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/103A49C4-E044-470F-BF55-73547C850A02/66/a441fca3/Assert.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/share/dotnet/sdk/2.1.4/Microsoft.Common.CurrentVersion.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="4105" column="4" selection-start-line="4105" selection-start-column="4" selection-end-line="4105" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/Entities/PersonEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <marker date="1558617733228" expanded="false" signature="6:96" ph="..." />
+            <marker date="1558617733228" expanded="true" signature="127:581" ph="{...}" />
+            <marker date="1558617733228" expanded="true" signature="159:579" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator.Application.Test/Controller/PersonControllerTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+          <folding>
+            <marker date="1558660180305" expanded="true" signature="6:142" ph="..." />
+            <marker date="1558660180305" expanded="true" signature="234:5219" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="418:635" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="721:996" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="787:834" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="1098:1437" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="1164:1275" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="1536:1878" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="1602:1716" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="1960:2328" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="2024:2176" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="2430:2813" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="2496:2648" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="2917:3297" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="2983:3132" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="3386:3773" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="3452:3608" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="3878:4250" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="3944:4085" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="4352:4727" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="4418:4562" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="4812:5213" ph="{...}" />
+            <marker date="1558660180305" expanded="true" signature="4876:5058" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator.Application.Test/Service/PersonMockService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <folding>
+            <marker date="1558652980143" expanded="false" signature="6:109" ph="..." />
+            <marker date="1558652980143" expanded="true" signature="158:1540" ph="{...}" />
+            <marker date="1558652980143" expanded="true" signature="220:1538" ph="{...}" />
+            <marker date="1558652980143" expanded="true" signature="306:716" ph="{...}" />
+            <marker date="1558652980143" expanded="true" signature="768:815" ph="{...}" />
+            <marker date="1558652980143" expanded="true" signature="863:883" ph="{...}" />
+            <marker date="1558652980143" expanded="true" signature="966:1332" ph="{...}" />
+            <marker date="1558652980143" expanded="true" signature="1046:1321" ph="{...}" />
+            <marker date="1558652980143" expanded="true" signature="1379:1434" ph="{...}" />
+            <marker date="1558652980143" expanded="true" signature="1485:1532" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/Migrations/ITContextModelSnapshot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <marker date="1558620835113" expanded="true" signature="29:183" ph="..." />
+            <marker date="1558620835113" expanded="true" signature="216:1432" ph="{...}" />
+            <marker date="1558620835113" expanded="true" signature="310:1430" ph="{...}" />
+            <marker date="1558620835113" expanded="true" signature="386:1424" ph="{...}" />
+            <marker date="1558620835113" expanded="true" signature="685:1379" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator.Domain.Test/Repository/PersonMockRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <marker date="1558652738531" expanded="false" signature="6:98" ph="..." />
+            <marker date="1558652738531" expanded="true" signature="198:1482" ph="{...}" />
+            <marker date="1558652738531" expanded="true" signature="284:694" ph="{...}" />
+            <marker date="1558652738531" expanded="true" signature="746:793" ph="{...}" />
+            <marker date="1558652738531" expanded="true" signature="841:861" ph="{...}" />
+            <marker date="1558652738531" expanded="true" signature="912:959" ph="{...}" />
+            <marker date="1558652738531" expanded="true" signature="1042:1276" ph="{...}" />
+            <marker date="1558652738531" expanded="true" signature="1122:1265" ph="{...}" />
+            <marker date="1558652738531" expanded="true" signature="1323:1378" ph="{...}" />
+            <marker date="1558652738531" expanded="true" signature="1429:1476" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/Service/IPersonService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1558644807086" expanded="true" signature="6:54" ph="..." />
+            <marker date="1558644807086" expanded="true" signature="80:377" ph="{...}" />
+            <marker date="1558644807086" expanded="true" signature="118:375" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/Service/PersonService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <marker date="1558648444561" expanded="true" signature="6:119" ph="..." />
+            <marker date="1558648444561" expanded="true" signature="145:1332" ph="{...}" />
+            <marker date="1558648444561" expanded="true" signature="195:1330" ph="{...}" />
+            <marker date="1558648444561" expanded="true" signature="318:376" ph="{...}" />
+            <marker date="1558648444561" expanded="true" signature="435:663" ph="{...}" />
+            <marker date="1558648444561" expanded="true" signature="496:586" ph="{...}" />
+            <marker date="1558648444561" expanded="true" signature="714:929" ph="{...}" />
+            <marker date="1558648444561" expanded="true" signature="775:865" ph="{...}" />
+            <marker date="1558648444561" expanded="true" signature="977:1045" ph="{...}" />
+            <marker date="1558648444561" expanded="true" signature="1128:1205" ph="{...}" />
+            <marker date="1558648444561" expanded="true" signature="1252:1324" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/Models/TaxResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1558637150732" expanded="true" signature="38:215" ph="{...}" />
+            <marker date="1558637150732" expanded="true" signature="69:213" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/Models/ListResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <marker date="1558644807091" expanded="true" signature="23:188" ph="{...}" />
+            <marker date="1558644807091" expanded="true" signature="58:186" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/Models/Person.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="42" />
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <marker date="1558657266221" expanded="true" signature="23:301" ph="{...}" />
+            <marker date="1558657266221" expanded="true" signature="49:299" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+          <folding>
+            <marker date="1558733089843" expanded="true" signature="6:237" ph="..." />
+            <marker date="1558733089843" expanded="true" signature="261:1609" ph="{...}" />
+            <marker date="1558733089843" expanded="true" signature="288:1607" ph="{...}" />
+            <marker date="1558733089843" expanded="true" signature="347:410" ph="{...}" />
+            <marker date="1558733089843" expanded="true" signature="705:1210" ph="{...}" />
+            <marker date="1558733089843" expanded="true" signature="768:963" ph="{...}" />
+            <marker date="1558733089843" expanded="true" signature="848:947" ph="{...}" />
+            <marker date="1558733089843" expanded="true" signature="1398:1601" ph="{...}" />
+            <marker date="1558733089843" expanded="true" signature="1445:1522" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/Service/TaxService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <marker date="1558657266210" expanded="true" signature="6:112" ph="..." />
+            <marker date="1558657266210" expanded="true" signature="138:2558" ph="{...}" />
+            <marker date="1558657266210" expanded="true" signature="182:2556" ph="{...}" />
+            <marker date="1558657266210" expanded="true" signature="301:359" ph="{...}" />
+            <marker date="1558657266210" expanded="true" signature="434:1052" ph="{...}" />
+            <marker date="1558657266210" expanded="true" signature="764:929" ph="{...}" />
+            <marker date="1558657266210" expanded="true" signature="1140:1630" ph="{...}" />
+            <marker date="1558657266210" expanded="true" signature="1202:1327" ph="{...}" />
+            <marker date="1558657266210" expanded="true" signature="1377:1509" ph="{...}" />
+            <marker date="1558657266210" expanded="true" signature="1715:1960" ph="{...}" />
+            <marker date="1558657266210" expanded="true" signature="2033:2550" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator/Controllers/TaxController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <marker date="1558748124951" expanded="true" signature="6:120" ph="..." />
+            <marker date="1558748124951" expanded="true" signature="156:826" ph="{...}" />
+            <marker date="1558748124951" expanded="true" signature="221:824" ph="{...}" />
+            <marker date="1558748124951" expanded="true" signature="334:395" ph="{...}" />
+            <marker date="1558748124951" expanded="true" signature="491:818" ph="{...}" />
+            <marker date="1558748124951" expanded="true" signature="517:686" ph="{...}" />
+            <marker date="1558748124951" expanded="true" signature="718:808" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/Service/ITaxService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1558644474534" expanded="true" signature="6:80" ph="..." />
+            <marker date="1558644474534" expanded="true" signature="106:223" ph="{...}" />
+            <marker date="1558644474534" expanded="true" signature="141:221" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator/Dto/ListPersonTaxDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding>
+            <marker date="1558748655451" expanded="true" signature="26:124" ph="{...}" />
+            <marker date="1558748655451" expanded="true" signature="62:122" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITCalculator/Controllers/PersonController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <marker date="1558752150940" expanded="false" signature="6:117" ph="..." />
+            <marker date="1558752150940" expanded="true" signature="153:3481" ph="{...}" />
+            <marker date="1558752150940" expanded="true" signature="221:3479" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="346:410" ph="{...}" />
+            <marker date="1558752150940" expanded="true" signature="499:769" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="525:637" ph="{...}" />
+            <marker date="1558752150940" expanded="true" signature="669:759" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="867:1178" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="893:1046" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="1078:1168" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="1265:2112" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="1331:1440" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="1484:1595" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="1632:1742" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="1795:1920" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="1970:2102" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="2204:2491" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="2230:2359" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="2391:2481" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="2595:2913" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="2621:2781" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="2813:2903" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="2999:3473" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="3025:3132" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="3164:3463" ph="{...}" />
+            <marker date="1558752150940" expanded="false" signature="3286:3386" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/Repository/IPersonRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1558644620215" expanded="false" signature="6:94" ph="..." />
+            <marker date="1558644620215" expanded="true" signature="123:467" ph="{...}" />
+            <marker date="1558644620215" expanded="true" signature="164:465" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/63/b9d1311a/ExceptionDispatchInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/Repository/PersonRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+          <folding>
+            <marker date="1558752737961" expanded="true" signature="6:164" ph="..." />
+            <marker date="1558752737961" expanded="true" signature="197:6553" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="253:6551" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="309:1827" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="378:1817" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="460:662" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="719:856" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="910:1054" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="1124:1378" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="1512:1802" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="1878:3654" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="1947:3644" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="2062:2264" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="2310:2431" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="2488:2625" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="2679:2823" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="2894:3202" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="3339:3629" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="3702:4175" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="3771:4165" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="3876:4066" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="4226:4749" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="4295:4739" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="4400:4714" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="4832:5770" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="4901:5760" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="5212:5526" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="5615:5745" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="5817:6545" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="5886:6535" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="5992:6148" ph="{...}" />
+            <marker date="1558752737961" expanded="true" signature="6200:6520" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repository/Config/DbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <marker date="1558810103671" expanded="false" signature="6:63" ph="..." />
+            <marker date="1558810103671" expanded="true" signature="92:621" ph="{...}" />
+            <marker date="1558810103671" expanded="true" signature="163:619" ph="{...}" />
+            <marker date="1558810103671" expanded="true" signature="312:517" ph="{...}" />
+            <marker date="1558810103671" expanded="true" signature="368:507" ph="{...}" />
+            <marker date="1558810103671" expanded="true" signature="593:613" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
