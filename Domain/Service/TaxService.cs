@@ -15,6 +15,13 @@ namespace Domain.Service
             _repository = repository;
         }
 
+        /*
+         * NOTA: Esta funcionalidade foi feita sendo pensada como se o usuário retornasse uma lista de todos os contribuintes
+         * para um relatório.
+         * Se a idéia for tornar ele paginável, eu faria mais uma tabela para salvar o valor do salario minimo e uma referenciando
+         * a de Contribuintes salvando os valores, já que assim caso não seja modificado o salario minimo, não precisaria gastar
+         * poder computacional para recalcular a cada pagina carregada por exemplo.
+         */
         public IEnumerable<TaxResponse> ListPeopleTax(double minimumWage)
         {
             var people = _repository.GetAllPeople();
