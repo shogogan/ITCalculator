@@ -11,12 +11,12 @@ namespace Repository.Migrations
                 name: "People",
                 columns: table => new
                 {
-                    id = table.Column<int>(nullable: false)
+                    id = table.Column<int>()
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    cpf = table.Column<string>(nullable: true),
-                    person_name = table.Column<string>(nullable: true),
-                    dependents_amount = table.Column<int>(nullable: false),
-                    monthly_gross_revenue = table.Column<double>(nullable: false)
+                    cpf = table.Column<string>(),
+                    person_name = table.Column<string>(),
+                    dependents_amount = table.Column<int>(),
+                    monthly_gross_revenue = table.Column<double>()
                 },
                 constraints: table => { table.PrimaryKey("PK_People", x => x.id); });
         }
